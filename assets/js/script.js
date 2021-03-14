@@ -145,7 +145,7 @@ var getLows = function () {
 var getNums = function () {
   var nums = [];
   var pwNums = parseInt(prompt("How many numbers do you need?"));
-  if (pwNums > 7) {
+  if (pwNums > 0) {
     for (var i = 0; i < pwNums; i++) {
       var random = Math.floor(Math.random() * letNumSym.numbers.length);
       var letter = letNumSym.numbers[random];
